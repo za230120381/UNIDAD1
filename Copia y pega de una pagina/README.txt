@@ -1,0 +1,1 @@
+Intento de copiar código fuente de la página https://www.lipsum.com/, una con la demostración del profesor y otra generada con IA.
