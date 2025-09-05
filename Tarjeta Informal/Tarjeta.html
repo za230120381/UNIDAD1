@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta de Presentación Digital</title>
+  <style>
+    
+    body {
+      background: #520146;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(43,88,245,0.15);
+      padding: 2rem;
+      max-width: 340px;
+      text-align: center;
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #2b58f5;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    .card h1 {
+      color: #1d276b;
+      margin: 0.5rem 0 1rem 0;
+      font-size: 1.6rem;
+    }
+    .interests {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .dislikes img {
+      width: 15px;
+      height: 15px;
+      vertical-align: -3px;
+      border: 3px solid #fbb099;
+      margin-right: 6px;
+    }
+    .dislikes {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+    }       
+    .interests li {
+      background: #e3eafd;
+      color: #2561ce;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+      display: inline-block;
+    }
+    .dislikes li {
+      background: #ff5078;
+      color: #ffffff;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      padding: 0.3rem 1rem;
+      display: inline-flexbox
+    }
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      background: #2b58f5;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      display: inline-block;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .card a:hover {
+      background: #60f579;
+    }
+  </style>
+</head>
+<body>
+    <img src="Imagenes/fade-emoji (1).gif" alt="GIF izquierdo" style="width:200px; height:250px;">
+  <div class="card">
+    <img src="Imagenes/yo.jpg" alt="Imagen de perfil">
+    <h1>Gerardo Rigel</h1>
+    <p>Me gustan los albures, los videojuegos y tocar el piano. Me gusta descubrir libros de fantasía y melodías.</p>
+    <p>Fiel seguidor de San Nicolas de mis canicas.</p>
+    <h2>Me gusta</h2>
+    <ul class="interests">
+      <li>Música</li>
+      <li>Videojuegos</li>
+      <li>Libros</li>
+      <li>Albures</li>
+      <li>Piano</li>
+    </ul>
+    <h2>No me gusta:</h2>
+      <ul class="dislikes">
+        <li>
+            Jitomate
+            <image src="Imagenes/tomato.png" alt="Tomato" style="width:15px;height:15px;vertical-align:-20px;"></image>
+        </li>
+        <li>
+            Compus lentas
+            <image src="Imagenes/pc.png" alt="pc" style="width:15px;height:15px;vertical-align:-20px;"></image>
+        </li>
+        <li>Chistes malos</li>
+        <li>El calor</li>
+        </ul>
+    <a href="https://i.pinimg.com/736x/26/7f/70/267f704b8238025210976e43027c09b6.jpg" target="_blank">¡Checate este albur!</a>
+  </div>
+  <img src="Imagenes/fade-emoji (1).gif" alt="GIF derecho" style="width:200px; height:250px;">
+</body>
+</html>
